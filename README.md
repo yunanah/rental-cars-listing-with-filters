@@ -1,6 +1,4 @@
-# web-frontend
-
-## 요구사항 이외에 추가된 사항들
+## 구현 내용
 - Sass를 활용한 스타일 코드 작성 (Detail.scss) 
   - 따라서 반드시 npm install 후 실행 바랍니다. 
 - 모달창 열기 직전 스크롤 위치를 저장하여 모달창을 닫은 후 이전에 보던 위치에서 시작하도록 스크롤위치 state를 추가했습니다.
@@ -11,16 +9,7 @@
 
 ## 기술스택
 - React
-- JavaScript or TypeScript
-    - TypeScript 사용 시
-    ```
-      npm install --save typescript @types/node @types/react @types/react-dom @types/jest
-    ```
-- 상태관리는 필요하다면 외부 패키지(redux, mobx) 사용 가능
-- 그 외 ui, event관련 패키지 (modal, chip button, scroll, animation등) 사용불가
 
-## 과제 내용
-- 안내 메일에 첨부되어 있는 문서링크
 
 ## local에서 json-server 실행 방법
 ```

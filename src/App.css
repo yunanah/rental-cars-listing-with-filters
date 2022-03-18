@@ -1,0 +1,67 @@
+.App {
+  height: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+p {
+  margin: 80px auto 28px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+span {
+  margin: 8px;
+}
+
+.my-info {
+  background-color: #eee;
+  padding: 16px;
+  border-radius: 8px;
+  text-align: left;
+  margin-top: 300px;
+  display: fixed;
+  bottom: 0;
+  line-height: 190%;
+  color: #374553;
+  font-weight: 500;
+}
+
+.title {
+  font-size: 18px;
+  margin: 0;
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: #161d24;
+}
+
+.mail-btn {
+  padding: 8px;
+  font-size: 16px;
+  background-color: #7bb0ff;
+  border-radius: 8px;
+  margin-left: 8px;
+  font-weight: 600;
+}
+
+.move-btn {
+  margin-top: 16px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 600;
+  color: white;
+  background-color: #00b8ff;
+}
+
+.move-btn:hover {
+  background-color: #7dd5ff;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}

@@ -1,0 +1,460 @@
+@import './colors';
+
+.body {
+  display: flex;
+  justify-content: center;
+
+  .list-view {
+    background-color: $background;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 420px;
+
+    @media screen and (max-width: 420px) {
+      width: 100vw;
+    }
+
+    .loading,
+    .no-stock {
+      color: #a7aeb9;
+      font-size: 18px;
+      font-weight: 700;
+      height: 100vh;
+      margin: 120px auto;
+      width: 420px;
+    }
+
+    .loading {
+      color: $blue;
+    }
+
+    .header {
+      position: relative;
+
+      .go-back {
+        color: $primary;
+        font-size: 24px;
+        left: 5%;
+        position: absolute;
+        top: 12%;
+
+        &:hover {
+          color: $secondary;
+        }
+      }
+
+      h2 {
+        color: $primary;
+        font-weight: 600;
+        margin: 32px auto 24px;
+        margin-top: 32px;
+      }
+
+      .buttons {
+        align-items: center;
+        display: flex;
+        justify-content: end;
+
+        .select-group {
+          position: relative;
+
+          &.is-active {
+            .form-select {
+                border-color: $blue;
+            }
+
+            .select-icon {
+                color: $blue;
+            }
+          }
+
+          .form-select {
+            appearance: none; //기본 디자인 none
+            background-color: $white;
+            border: 1px solid $btn-back;
+            border-radius: 4px;
+            color: $blue;
+            display: block;
+            font-size: 12;
+            font-weight: 500;
+            height: 32px;
+            padding: 0 16px;
+            padding-right: 40px;
+            text-overflow: ellipsis;
+            transition: background-color 200ms ease-in-out;
+            width: 100%;
+
+            &::placeholder {
+              color: $btn-back;
+            }
+
+            &:not(:disabled):hover {
+              background-color: $tertiary;
+            }
+
+            &:disabled {
+              cursor: not-allowed;
+              opacity: .4;
+            }
+          }
+
+          .select-icon {
+            color: $btn-back;
+            font-size: 24px;
+            pointer-events: none; // 아이콘을 무시하고 그아래 영역을 클릭할 수 있게함
+            position: absolute;
+            right: 8px;
+            top: 38%;
+            transform: translateY(-50%);
+          }
+      }
+
+        .show-version-btn {
+          align-items: center;
+          display: flex;
+          justify-content: center;
+          margin: 0 8px 0 4px;
+
+          .icon-btn {
+            border-radius: 8px;
+            color: rgba(0, 0, 0, 0.5);
+            font-size: 28px;
+            padding: 4px;
+            width: 28px;
+          }
+
+          .icon-btn:hover {
+            color: $blue-hover;
+          }
+        }
+      }
+
+      .types {
+        background-color: $white;
+        border-radius: 8px;
+        margin: 8px auto;
+        padding: 8px;
+        width: 90%;
+
+        .size-filters,
+        .region-filters {
+          align-items: center;
+          display: flex;
+          justify-content: start;
+
+          h4 {
+            color: $primary;
+            margin: 8px;
+            width: 72px;
+          }
+
+          .items {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 12px auto;
+            width: 100%;
+
+            .item {
+              background-color: $white;
+              border: 1px solid $blue;
+              border-radius: 8px;
+              color: $blue-dark;
+              font-weight: 500;
+              margin: 2px 4px;
+              padding: 4px;
+            }
+
+            .selected {
+              background-color: $blue;
+              color: $white;
+            }
+          }
+        }
+
+        .size-filters {
+          border-bottom: 1px solid $background;
+        }
+      }
+
+    }
+
+
+    .more {
+      background-color: $blue-dark;
+      border-radius: 8px;
+      color: $white;
+      font-size: 18px;
+      font-weight: 700;
+      margin: 16px auto 32px;
+      padding: 16px;
+    }
+
+    .more:hover {
+      background-color: $blue-hover;
+    }
+  }
+}
+
+.dimmed {
+  height: 100%;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
+
+.box {
+  align-items: center;
+  background-color: $white;
+  border-radius: 8px;
+  box-shadow: 1px 4px 4px 0 $tertiary;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 8px auto;
+  position: relative;
+
+  @media screen and (max-width: 420px) {
+    width: 95%;
+  }
+
+  img {
+    margin-top: 32px;
+    width: 400px;
+
+    @media screen and (max-width: 420px) {
+      width: 90%;
+    }
+  }
+
+  .info {
+    width: 100%;
+  }
+
+  p {
+    // background-color: $white;
+    border-radius: 8px;
+    color: $primary;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 190%;
+    margin: 0 auto 16px;
+    padding: 8px 16px;
+    width: 80%;
+
+    .discount {
+      color: $blue;
+      font-size: 18px;
+      font-weight: 700;
+      margin: 0;
+    }
+
+    .sub-info {
+      color: $secondary;
+      font-size: 14px;
+    }
+  }
+
+  .name-tags {
+    align-items: center;
+    color: $primary;
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    margin: 8px;
+    position: relative;
+  }
+
+  .tags {
+    align-items: center;
+    display: flex;
+    left: 2%;
+    position: absolute;
+    top: 2%;
+
+    span {
+      background-color: $blue-dark;
+      border: 2px solid $blue-dark;
+      border-radius: 4px;
+      color: $white;
+      font-size: 18px;
+      font-weight: 600;
+      margin: 2px;
+      padding: 3px 6px;
+    }
+
+    .popular {
+      background-color: $white;
+      border: 2px solid $coral;
+      border-radius: 4px;
+      color: $coral;
+      font-weight: 600;
+      margin-right: 4px;
+      padding: 3px 6px;
+    }
+  }
+
+  &:hover {
+    background-color: $blue-light;
+  }
+
+}
+
+.short {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  width: 400px;
+
+  @media screen and (max-width: 420px) {
+    width: 95vw;
+  }
+
+  img {
+    margin: 32px 0;
+    width: 160px;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: left;
+
+    .name-tags {
+      display: flex;
+      justify-content: start;
+      margin: 8px 0;
+    }
+
+    .tags {
+      left: 1%;
+      position: absolute;
+      top: 3%;
+
+      span {
+        font-size: 14px;
+        font-weight: bold;
+      }
+    }
+
+    p {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+
+      &:hover {
+        background-color: $blue-light;
+      }
+
+      .sub-info {
+        font-size: 12px;
+        margin: 0;
+      }
+    }
+  }
+}
+
+.modalBackground {
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+
+  .modalBox {
+    background-color: $white;
+    border-radius: 0.3rem;
+    color: $primary;
+    height: 640px;
+    margin: 0 auto;
+    max-width: 400px;
+    overflow: scroll;
+    position: relative;
+    width: 90%;
+
+    .close {
+      font-size: 24px;
+      font-weight: bold;
+      position: absolute;
+      right: 3%;
+      top: 1%;
+
+      &:hover {
+        color: $btn-back;
+      }
+    }
+
+    img {
+      margin-top: 16px;
+      width: 100%;
+    }
+
+    h3 {
+      font-size: 24px;
+      margin-left: 40px;
+      text-align: left;
+    }
+
+    .basic-Info {
+      display: flex;
+      margin-bottom: 20px;
+      margin-left: 32px;
+
+      table {
+        margin-left: 8px;
+
+        tr {
+          th {
+            color: $secondary;
+            font-size: 16px;
+            font-weight: 500;
+            text-align: left;
+            width: 80px;
+          }
+
+          td {
+            color: $primary;
+            font-size: 16px;
+            font-weight: 600;
+            text-align: center;
+            width: 140px;
+          }
+        }
+      }
+    }
+
+    .safe-info,
+    .comfort-info {
+      border-top: 2px solid $tertiary;
+      display: flex;
+      flex-direction: column;
+      margin-left: 32px;
+      margin-right: 32px;
+
+      h4 {
+        font-size: 18px;
+        margin: 24px 0 0;
+        margin-left: 8px;
+        text-align: left;
+      }
+
+      ul {
+        line-height: 160%;
+        list-style-type: none;
+        margin-left: 16px;
+        padding: 0;
+
+        li {
+          text-align: left;
+        }
+      }
+    }
+  }
+}

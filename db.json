@@ -1,0 +1,706 @@
+{
+  "carClasses": [
+    {
+      "carClassId": 1,
+      "carClassName": "더뉴아반떼",
+      "carModel": "준중형",
+      "image": "https://image.socar.kr/car_image/car086_detail1.png",
+      "drivingDistance": 5000,
+      "year": 2021,
+      "price": 225000,
+      "discountPercent": 25,
+      "regionGroups": [
+        "서울/경기/인천",
+        "광주"
+      ],
+      "carTypeTags": [
+        "특가",
+        "인기"
+      ]
+    },
+    {
+      "carClassId": 2,
+      "carClassName": "올뉴아반떼",
+      "carModel": "준중형",
+      "image": "https://image.socar.kr/car_image/car144_detail1.png",
+      "drivingDistance": 10000,
+      "year": 2021,
+      "price": 325000,
+      "discountPercent": 37,
+      "regionGroups": [
+        "광주",
+        "대전"
+      ],
+      "carTypeTags": [
+        "빠른대여",
+        "인기"
+      ]
+    },
+    {
+      "carClassId": 3,
+      "carClassName": "아반떼AD",
+      "carModel": "준중형",
+      "image": "https://image.socar.kr/car_image/car022_detail1.png",
+      "drivingDistance": 100000,
+      "year": 2017,
+      "price": 245000,
+      "discountPercent": 20,
+      "regionGroups": [
+        "서울/경기/인천"
+      ],
+      "carTypeTags": [
+        "인기"
+      ]
+    },
+    {
+      "carClassId": 4,
+      "carClassName": "스포티지",
+      "carModel": "SUV",
+      "image": "https://image.socar.kr/car_image/car024_detail1.png",
+      "drivingDistance": 100000,
+      "year": 2017,
+      "price": 343000,
+      "discountPercent": 15,
+      "regionGroups": [
+        "서울/경기/인천"
+      ],
+      "carTypeTags": [
+        "특가",
+        "인기"
+      ]
+    },
+    {
+      "carClassId": 5,
+      "carClassName": "K5",
+      "carModel": "중형/대형",
+      "image": "https://image.socar.kr/car_image/car047_detail1.png",
+      "drivingDistance": 100000,
+      "year": 2017,
+      "price": 316000,
+      "discountPercent": 0,
+      "regionGroups": [
+        "서울/경기/인천"
+      ],
+      "carTypeTags": [
+        "인기"
+      ]
+    },
+    {
+      "carClassId": 6,
+      "carClassName": "K5 (LPG)",
+      "carModel": "중형/대형",
+      "image": "https://image.socar.kr/car_image/car030_detail1.png",
+      "drivingDistance": 100000,
+      "year": 2017,
+      "price": 342000,
+      "discountPercent": 10,
+      "regionGroups": [
+        "서울/경기/인천"
+      ],
+      "carTypeTags": [
+
+      ]
+    },
+    {
+      "carClassId": 7,
+      "carClassName": "카니발 11인승",
+      "carModel": "SUV",
+      "image": "https://image.socar.kr/car_image/car034_detail1.png",
+      "drivingDistance": 50000,
+      "year": 2017,
+      "price": 324000,
+      "discountPercent": 14,
+      "regionGroups": [
+        "서울/경기/인천"
+      ],
+      "carTypeTags": [
+
+      ]
+    },
+    {
+      "carClassId": 8,
+      "carClassName": "코나",
+      "carModel": "경형/소형",
+      "image": "https://image.socar.kr/car_image/car060_detail1.png",
+      "drivingDistance": 50000,
+      "year": 2019,
+      "price": 215000,
+      "discountPercent": 30,
+      "regionGroups": [
+        "서울/경기/인천",
+        "대구/경북"
+      ],
+      "carTypeTags": [
+        "특가"
+      ]
+    },
+    {
+      "carClassId": 9,
+      "carClassName": "더뉴레이",
+      "carModel": "경형/소형",
+      "image": "https://image.socar.kr/car_image/car064_detail1.png",
+      "drivingDistance": 10000,
+      "year": 2021,
+      "price": 198000,
+      "discountPercent": 15,
+      "regionGroups": [
+        "서울/경기/인천",
+        "대전"
+      ],
+      "carTypeTags": [
+        "인기"
+      ]
+    },
+    {
+      "carClassId": 10,
+      "carClassName": "싼타페",
+      "carModel": "SUV",
+      "image": "https://image.socar.kr/car_image/car072_detail1.png",
+      "drivingDistance": 100000,
+      "year": 2019,
+      "price": 387000,
+      "discountPercent": 17,
+      "regionGroups": [
+        "서울/경기/인천"
+      ],
+      "carTypeTags": [
+        "빠른대여",
+        "인기"
+      ]
+    },
+    {
+      "carClassId": 11,
+      "carClassName": "셀토스",
+      "carModel": "SUV",
+      "image": "https://image.socar.kr/car_image/car136_detail1.png",
+      "drivingDistance": 10000,
+      "year": 2021,
+      "price": 375000,
+      "discountPercent": 28,
+      "regionGroups": [
+        "광주",
+        "서울/경기/인천"
+      ],
+      "carTypeTags": [
+        "빠른대여",
+        "인기"
+      ]
+    },
+    {
+      "carClassId": 12,
+      "carClassName": "더뉴K3",
+      "carModel": "준중형",
+      "image": "https://image.socar.kr/car_image/car174_detail1.png",
+      "drivingDistance": 10000,
+      "year": 2021,
+      "price": 366000,
+      "discountPercent": 26,
+      "regionGroups": [
+        "광주"
+      ],
+      "carTypeTags": [
+        "인기"
+      ]
+    },
+    {
+      "carClassId": 13,
+      "carClassName": "2021 쏘나타DN8",
+      "carModel": "중형/대형",
+      "image": "https://image.socar.kr/car_image/car188_detail1.png",
+      "drivingDistance": 500,
+      "year": 2021,
+      "price": 389000,
+      "discountPercent": 8,
+      "regionGroups": [
+        "서울/경기/인천"
+      ],
+      "carTypeTags": [
+        "신차급"
+      ]
+    },
+    {
+      "carClassId": 14,
+      "carClassName": "투싼(경유)",
+      "carModel": "SUV",
+      "image": "https://image.socar.kr/car_image/car050_detail1.png",
+      "drivingDistance": 100000,
+      "year": 2017,
+      "price": 376000,
+      "discountPercent": 0,
+      "regionGroups": [
+        "서울/경기/인천"
+      ],
+      "carTypeTags": [
+        "특가"
+      ]
+    },
+    {
+      "carClassId": 15,
+      "carClassName": "쏘나타 뉴라이즈(LPG)",
+      "carModel": "중형/대형",
+      "image": "https://image.socar.kr/car_image/car061_detail1.png",
+      "drivingDistance": 50000,
+      "year": 2019,
+      "price": 346000,
+      "discountPercent": 12,
+      "regionGroups": [
+        "서울/경기/인천"
+      ],
+      "carTypeTags": [
+
+      ]
+    },
+    {
+      "carClassId": 16,
+      "carClassName": "G80",
+      "carModel": "중형/대형",
+      "image": "https://image.socar.kr/car_image/car068_detail1.png",
+      "drivingDistance": 50000,
+      "year": 2019,
+      "price": 567000,
+      "discountPercent": 25,
+      "regionGroups": [
+        "서울/경기/인천"
+      ],
+      "carTypeTags": [
+        "프리미엄"
+      ]
+    },
+    {
+      "carClassId": 17,
+      "carClassName": "쏘나타 뉴라이즈",
+      "carModel": "중형/대형",
+      "image": "https://image.socar.kr/car_image/car077_detail1.png",
+      "drivingDistance": 100000,
+      "year": 2019,
+      "price": 287000,
+      "discountPercent": 25,
+      "regionGroups": [
+        "서울/경기/인천"
+      ],
+      "carTypeTags": [
+
+      ]
+    },
+    {
+      "carClassId": 18,
+      "carClassName": "벤츠 A220",
+      "carModel": "수입",
+      "image": "https://image.socar.kr/car_image/car122_detail1.png",
+      "drivingDistance": 10000,
+      "year": 2019,
+      "price": 578000,
+      "discountPercent": 27,
+      "regionGroups": [
+        "서울/경기/인천"
+      ],
+      "carTypeTags": [
+        "프리미엄"
+      ]
+    },
+    {
+      "carClassId": 19,
+      "carClassName": "카니발 프레스티지 9인승",
+      "carModel": "SUV",
+      "image": "https://image.socar.kr/car_image/car034_detail1.png",
+      "drivingDistance": 50000,
+      "year": 2019,
+      "price": 354000,
+      "discountPercent": 25,
+      "regionGroups": [
+        "부산/창원"
+      ],
+      "carTypeTags": [
+        "특가"
+      ]
+    }
+  ],
+  "carClass": [
+    {
+      "carClassId": 1,
+      "carClassName": "더뉴아반떼",
+      "carImage": "https://image.socar.kr/car_image/car086_detail1.png",
+      "maker": "현대자동차",
+      "carModel": "준중형",
+      "capacity": 5,
+      "fuel": "휘발유",
+      "gearbox": "자동",
+      "additionalOption": [
+        "에어컨",
+        "AUX/USB",
+        "블루투스"
+      ],
+      "safetyOption": [
+        "에어백",
+        "후방감지센서",
+        "블랙박스"
+      ]
+    },
+    {
+      "carClassId": 2,
+      "carClassName": "올뉴아반떼",
+      "carImage": "https://image.socar.kr/car_image/car144_detail1.png",
+      "maker": "현대자동차",
+      "carModel": "준중형",
+      "capacity": 5,
+      "fuel": "휘발유",
+      "gearbox": "자동",
+      "additionalOption": [
+        "에어컨",
+        "AUX/USB",
+        "블루투스"
+      ],
+      "safetyOption": [
+        "에어백",
+        "후방감지센서",
+        "블랙박스"
+      ]
+    },
+    {
+      "carClassId": 3,
+      "carClassName": "아반떼AD",
+      "carImage": "https://image.socar.kr/car_image/car022_detail1.png",
+      "maker": "현대자동차",
+      "carModel": "준중형",
+      "capacity": 5,
+      "fuel": "휘발유",
+      "gearbox": "자동 6단",
+      "additionalOption": [
+        "에어컨",
+        "AUX/USB",
+        "CDP",
+        "블루투스"
+      ],
+      "safetyOption": [
+        "에어백",
+        "후방감지센서",
+        "블랙박스"
+      ]
+    },
+    {
+      "carClassId": 4,
+      "carClassName": "스포티지",
+      "carImage": "https://image.socar.kr/car_image/car024_detail1.png",
+      "maker": "기아자동차",
+      "carModel": "준중형SUV",
+      "capacity": 5,
+      "fuel": "경유",
+      "gearbox": "자동 6단",
+      "additionalOption": [
+        "에어컨",
+        "AUX/USB",
+        "블루투스"
+      ],
+      "safetyOption": [
+        "에어백",
+        "후방감지센서",
+        "블랙박스"
+      ]
+    },
+    {
+      "carClassId": 5,
+      "carClassName": "K5",
+      "carImage": "https://image.socar.kr/car_image/car047_detail1.png",
+      "maker": "기아자동차",
+      "carModel": "중형",
+      "capacity": 5,
+      "fuel": "휘발유",
+      "gearbox": "자동 6단",
+      "additionalOption": [
+        "에어컨",
+        "AUX/USB",
+        "블루투스"
+      ],
+      "safetyOption": [
+        "에어백",
+        "후방감지센서",
+        "블랙박스"
+      ]
+    },
+    {
+      "carClassId": 6,
+      "carClassName": "K5 (LPG)",
+      "carImage": "https://image.socar.kr/car_image/car030_detail1.png",
+      "maker": "기아자동차",
+      "carModel": "중형",
+      "capacity": 5,
+      "fuel": "LPG",
+      "gearbox": "자동 6단",
+      "additionalOption": [
+        "에어컨",
+        "AUX/USB",
+        "블루투스"
+      ],
+      "safetyOption": [
+        "에어백",
+        "후방감지센서",
+        "블랙박스"
+      ]
+    },
+    {
+      "carClassId": 7,
+      "carClassName": "카니발 11인승",
+      "carImage": "https://image.socar.kr/car_image/car034_detail1.png",
+      "maker": "기아자동차",
+      "carModel": "승합",
+      "capacity": 11,
+      "fuel": "경유",
+      "gearbox": "자동 6단",
+      "additionalOption": [
+        "에어컨",
+        "AUX/USB",
+        "CDP",
+        "블루투스"
+      ],
+      "safetyOption": [
+        "에어백",
+        "후방감지센서",
+        "블랙박스"
+      ]
+    },
+    {
+      "carClassId": 8,
+      "carClassName": "코나",
+      "carImage": "https://image.socar.kr/car_image/car060_detail1.png",
+      "maker": "현대자동차",
+      "carModel": "소형SUV",
+      "capacity": 5,
+      "fuel": "휘발유",
+      "gearbox": "자동7단",
+      "additionalOption": [
+        "에어컨",
+        "AUX/USB",
+        "블루투스"
+      ],
+      "safetyOption": [
+        "에어백",
+        "후방감지센서",
+        "블랙박스"
+      ]
+    },
+    {
+      "carClassId": 9,
+      "carClassName": "더뉴레이",
+      "carImage": "https://image.socar.kr/car_image/car064_detail1.png",
+      "maker": "기아자동차",
+      "carModel": "경형",
+      "capacity": 5,
+      "fuel": "휘발유",
+      "gearbox": "자동4단",
+      "additionalOption": [
+        "에어컨",
+        "AUX/USB",
+        "블루투스"
+      ],
+      "safetyOption": [
+        "에어백",
+        "후방감지센서",
+        "블랙박스"
+      ]
+    },
+    {
+      "carClassId": 10,
+      "carClassName": "싼타페",
+      "carImage": "https://image.socar.kr/car_image/car072_detail1.png",
+      "maker": "현대자동차",
+      "carModel": "중형SUV",
+      "capacity": 5,
+      "fuel": "휘발유",
+      "gearbox": "자동8단",
+      "additionalOption": [
+        "에어컨",
+        "AUX/USB",
+        "블루투스"
+      ],
+      "safetyOption": [
+        "에어백",
+        "후방감지센서",
+        "블랙박스"
+      ]
+    },
+    {
+      "carClassId": 11,
+      "carClassName": "셀토스",
+      "carImage": "https://image.socar.kr/car_image/car136_detail1.png",
+      "maker": "기아자동차",
+      "carModel": "소형SUV",
+      "capacity": 5,
+      "fuel": "휘발유",
+      "gearbox": "자동",
+      "additionalOption": [
+        "에어컨",
+        "AUX/USB",
+        "블루투스"
+      ],
+      "safetyOption": [
+        "에어백",
+        "후방감지센서",
+        "블랙박스"
+      ]
+    },
+    {
+      "carClassId": 12,
+      "carClassName": "더뉴K3",
+      "carImage": "https://image.socar.kr/car_image/car174_detail1.png",
+      "maker": "기아자동차",
+      "carModel": "준중형",
+      "capacity": 5,
+      "fuel": "휘발유",
+      "gearbox": "자동",
+      "additionalOption": [
+        "에어컨",
+        "AUX/USB",
+        "블루투스",
+        "핸즈프리"
+      ],
+      "safetyOption": [
+        "에어백",
+        "후방감지센서",
+        "블랙박스"
+      ]
+    },
+    {
+      "carClassId": 13,
+      "carClassName": "2021 쏘나타DN8",
+      "carImage": "https://image.socar.kr/car_image/car188_detail1.png",
+      "maker": "현대자동차",
+      "carModel": "중형",
+      "capacity": 5,
+      "fuel": "휘발유",
+      "gearbox": "자동 6단",
+      "additionalOption": [
+        "에어컨",
+        "AUX/USB",
+        "블루투스"
+      ],
+      "safetyOption": [
+        "에어백",
+        "후방감지센서",
+        "블랙박스"
+      ]
+    },
+    {
+      "carClassId": 14,
+      "carClassName": "투싼(경유)",
+      "carImage": "https://image.socar.kr/car_image/car050_detail1.png",
+      "maker": "현대자동차",
+      "carModel": "준중형SUV",
+      "capacity": 5,
+      "fuel": "경유",
+      "gearbox": "자동6단",
+      "additionalOption": [
+        "에어컨",
+        "AUX/USB",
+        "블루투스"
+      ],
+      "safetyOption": [
+        "에어백",
+        "후방감지센서",
+        "블랙박스"
+      ]
+    },
+    {
+      "carClassId": 15,
+      "carClassName": "쏘나타 뉴라이즈(LPG)",
+      "carImage": "https://image.socar.kr/car_image/car061_detail1.png",
+      "maker": "현대자동차",
+      "carModel": "중형",
+      "capacity": 5,
+      "fuel": "LPG",
+      "gearbox": "자동6단",
+      "additionalOption": [
+        "에어컨",
+        "AUX/USB",
+        "CDP",
+        "블루투스"
+      ],
+      "safetyOption": [
+        "에어백",
+        "후방감지센서",
+        "블랙박스"
+      ]
+    },
+    {
+      "carClassId": 16,
+      "carClassName": "G80",
+      "carImage": "https://image.socar.kr/car_image/car068_detail1.png",
+      "maker": "현대자동차",
+      "carModel": "대형",
+      "capacity": 5,
+      "fuel": "휘발유",
+      "gearbox": "자동8단",
+      "additionalOption": [
+        "에어컨",
+        "AUX",
+        "CDP",
+        "블루투스",
+        "핸즈프리"
+      ],
+      "safetyOption": [
+        "에어백",
+        "후방감지센서",
+        "블랙박스"
+      ]
+    },
+    {
+      "carClassId": 17,
+      "carClassName": "쏘나타 뉴라이즈",
+      "carImage": "https://image.socar.kr/car_image/car077_detail1.png",
+      "maker": "현대자동차",
+      "carModel": "중형",
+      "capacity": 5,
+      "fuel": "휘발유",
+      "gearbox": "자동6단",
+      "additionalOption": [
+        "에어컨",
+        "AUX/USB",
+        "블루투스"
+      ],
+      "safetyOption": [
+        "에어백",
+        "후방감지센서",
+        "블랙박스"
+      ]
+    },
+    {
+      "carClassId": 18,
+      "carClassName": "벤츠 A220",
+      "carImage": "https://image.socar.kr/car_image/car122_detail1.png",
+      "maker": "벤츠",
+      "carModel": "수입",
+      "capacity": 5,
+      "fuel": "휘발유",
+      "gearbox": "자동",
+      "additionalOption": [
+        "에어컨",
+        "AUX/USB",
+        "블루투스"
+      ],
+      "safetyOption": [
+        "에어백",
+        "후방감지센서",
+        "블랙박스"
+      ]
+    },
+    {
+      "carClassId": 19,
+      "carClassName": "카니발 프레스티지 9인승",
+      "carImage": "https://image.socar.kr/car_image/car034_detail1.png",
+      "maker": "기아자동차",
+      "carModel": "RV",
+      "capacity": 9,
+      "fuel": "경유",
+      "gearbox": "자동",
+      "additionalOption": [
+        "에어컨",
+        "AUX/USB",
+        "블루투스"
+      ],
+      "safetyOption": [
+        "에어백",
+        "후방감지센서",
+        "블랙박스"
+      ]
+    }
+  ]
+}

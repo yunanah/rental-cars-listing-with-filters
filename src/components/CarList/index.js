@@ -5,11 +5,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faAlignJustify,
   faSortDown,
-  faTimes,
   faArrowLeft,
 } from "@fortawesome/free-solid-svg-icons";
 import { faSquare } from "@fortawesome/free-regular-svg-icons";
 
+import Card from "./components/Card";
 import Detail from "./components/Detail";
 
 //차량 리스트 페이지 컴포넌트

@@ -1,6 +1,7 @@
-import "./Detail.scss";
+import ".././../styles/Detail.scss";
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // 상세 모달창 컴포넌트
 function Detail(props) {
   //props

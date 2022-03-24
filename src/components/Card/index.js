@@ -1,5 +1,4 @@
-import Card from "./components/Card";
-
+import axios from "axios";
 // 차량 정보 카드 컴포넌트
 function Card(props) {
   // props

@@ -1,6 +1,6 @@
 import React from "react";
 import "../src/styles/App.css";
-import CarList from "./CarList";
+import CarList from "../src/components/CarList";
 import { Route, Link } from "react-router-dom";
 
 function App() {
